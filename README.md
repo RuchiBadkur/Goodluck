@@ -155,6 +155,10 @@ ALTER TABLE users ADD PRIMARY KEY userid; --> not accept duplicate entries
 Adding typeScript
 	npx create-react-app Goodluck --template typeScript
 
+    transpiler -> npm install -g typescript
+    tsc index.js
+    node index.js
+
 what is typescript and why we use it ??
 
 file.ts
@@ -163,10 +167,13 @@ flow library --> to check errors
 static typecheking (main advantages of ts )
 es linting library( used to make you follow best coding practices) 
 
+-----------03-08-2022----------------------
+<!-- API's -->
+1. LOGIN	users	POST				create an account	http://localhost:4000/users/adduser
+					POST				login				http://localhost:4000/users/login
+					update user details
 
-
-
-
+					All Users list
 
 
 
